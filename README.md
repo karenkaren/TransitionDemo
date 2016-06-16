@@ -10,4 +10,4 @@
 效果3:
 ----
 ![qq音乐效果](https://github.com/karenkaren/TransitionDemo/raw/master/GIF/qq.gif) 
-
+>具体实现可以看源码，可以随时与我qq交流：`41167750`
