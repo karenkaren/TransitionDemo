@@ -3,11 +3,11 @@
 >在学习了一些转场相关知识后，自己写了一个小demo，写了三种转场效果，如下：
 效果1:
 ----
-![](http://www.baidu.com/img/bdlogo.gif)
+![翻页效果](https://github.com/karenkaren/TransitionDemo/raw/master/GIF/page.gif) 
 效果2:
 ----
+![扩散效果](https://github.com/karenkaren/TransitionDemo/raw/master/GIF/spread.gif) 
 效果3:
 ----
-* kjhfs
-  * 342fds
-    * dfwfew
+![qq音乐效果](https://github.com/karenkaren/TransitionDemo/raw/master/GIF/qq.gif) 
+
