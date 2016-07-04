@@ -23,7 +23,7 @@
 
 - (void)initDatas
 {
-    _data = @[@"翻页效果", @"扩散效果", @"QQ音乐"];
+    _data = @[@"翻页效果", @"扩散效果", @"QQ音乐", @"放大效果"];
 }
 
 #pragma mark - Table view data source
@@ -49,8 +49,10 @@
         [self performSegueWithIdentifier:@"kPushPageCover" sender:nil];
     } else if (indexPath.row == 1){
         [self performSegueWithIdentifier:@"kPushSpread" sender:nil];
-    } else {
+    } else if (indexPath.row == 2){
         [self performSegueWithIdentifier:@"kPushQQMusic" sender:nil];
+    } else {
+        [self performSegueWithIdentifier:@"kPushScale" sender:nil];
     }
 }
 

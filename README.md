@@ -10,5 +10,8 @@
 效果3:
 ----
 ![qq音乐效果](https://github.com/karenkaren/TransitionDemo/raw/master/GIF/qq.gif) 
+效果4:
+----
+![格瓦拉启动页中的放大转场动画](https://github.com/karenkaren/TransitionDemo/raw/master/GIF/scale.gif) 
 
 具体实现可以看源码，可以随时与我qq交流：`309759130`

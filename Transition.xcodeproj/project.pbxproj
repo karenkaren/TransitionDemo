@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		E135A6871D06A59A00BED22F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E135A6861D06A59A00BED22F /* main.m */; };
 		E135A68A1D06A59A00BED22F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E135A6891D06A59A00BED22F /* AppDelegate.m */; };
-		E135A6901D06A59A00BED22F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E135A68E1D06A59A00BED22F /* Main.storyboard */; };
 		E135A6921D06A59A00BED22F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E135A6911D06A59A00BED22F /* Assets.xcassets */; };
 		E135A6951D06A59A00BED22F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E135A6931D06A59A00BED22F /* LaunchScreen.storyboard */; };
 		E135A6A01D06A59A00BED22F /* TransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E135A69F1D06A59A00BED22F /* TransitionTests.m */; };
@@ -25,6 +24,9 @@
 		E135A7151D07D12C00BED22F /* girl.png in Resources */ = {isa = PBXBuildFile; fileRef = E135A7141D07D12C00BED22F /* girl.png */; };
 		E135A7181D07F14A00BED22F /* SpreadPresentedController.m in Sources */ = {isa = PBXBuildFile; fileRef = E135A7171D07F14A00BED22F /* SpreadPresentedController.m */; };
 		E135A71B1D07F16800BED22F /* SpreadTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = E135A71A1D07F16800BED22F /* SpreadTransition.m */; };
+		E16F55921D2A5E1F0013E154 /* ScaleController.m in Sources */ = {isa = PBXBuildFile; fileRef = E16F558F1D2A5E1F0013E154 /* ScaleController.m */; };
+		E16F55931D2A5E1F0013E154 /* TransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = E16F55911D2A5E1F0013E154 /* TransitionAnimator.m */; };
+		E16F55951D2A5E4A0013E154 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16F55941D2A5E4A0013E154 /* Main.storyboard */; };
 		E18752BA1D1276D10017D8C5 /* QQController.m in Sources */ = {isa = PBXBuildFile; fileRef = E18752B91D1276D10017D8C5 /* QQController.m */; };
 		E18752BD1D1276E30017D8C5 /* QQSecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = E18752BC1D1276E30017D8C5 /* QQSecondController.m */; };
 		E18752C01D1276F70017D8C5 /* QQTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = E18752BF1D1276F70017D8C5 /* QQTransition.m */; };
@@ -52,7 +54,6 @@
 		E135A6861D06A59A00BED22F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E135A6881D06A59A00BED22F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E135A6891D06A59A00BED22F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E135A68F1D06A59A00BED22F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E135A6911D06A59A00BED22F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E135A6941D06A59A00BED22F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E135A6961D06A59A00BED22F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -82,6 +83,11 @@
 		E135A7171D07F14A00BED22F /* SpreadPresentedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpreadPresentedController.m; sourceTree = "<group>"; };
 		E135A7191D07F16800BED22F /* SpreadTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpreadTransition.h; sourceTree = "<group>"; };
 		E135A71A1D07F16800BED22F /* SpreadTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpreadTransition.m; sourceTree = "<group>"; };
+		E16F558E1D2A5E1F0013E154 /* ScaleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleController.h; sourceTree = "<group>"; };
+		E16F558F1D2A5E1F0013E154 /* ScaleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleController.m; sourceTree = "<group>"; };
+		E16F55901D2A5E1F0013E154 /* TransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionAnimator.h; sourceTree = "<group>"; };
+		E16F55911D2A5E1F0013E154 /* TransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionAnimator.m; sourceTree = "<group>"; };
+		E16F55941D2A5E4A0013E154 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		E18752B81D1276D10017D8C5 /* QQController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQController.h; sourceTree = "<group>"; };
 		E18752B91D1276D10017D8C5 /* QQController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QQController.m; sourceTree = "<group>"; };
 		E18752BB1D1276E30017D8C5 /* QQSecondController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QQSecondController.h; sourceTree = "<group>"; };
@@ -143,11 +149,12 @@
 				E18752B71D1276670017D8C5 /* QQMusic */,
 				E135A7101D07CC7500BED22F /* Spread */,
 				E135A7051D06C14900BED22F /* PageCover */,
+				E16F558D1D2A5E100013E154 /* Scale */,
 				E135A6FD1D06A98F00BED22F /* dog.png */,
 				E135A7141D07D12C00BED22F /* girl.png */,
 				E135A6881D06A59A00BED22F /* AppDelegate.h */,
 				E135A6891D06A59A00BED22F /* AppDelegate.m */,
-				E135A68E1D06A59A00BED22F /* Main.storyboard */,
+				E16F55941D2A5E4A0013E154 /* Main.storyboard */,
 				E135A6911D06A59A00BED22F /* Assets.xcassets */,
 				E135A6931D06A59A00BED22F /* LaunchScreen.storyboard */,
 				E135A6961D06A59A00BED22F /* Info.plist */,
@@ -210,6 +217,17 @@
 				E135A71A1D07F16800BED22F /* SpreadTransition.m */,
 			);
 			name = Spread;
+			sourceTree = "<group>";
+		};
+		E16F558D1D2A5E100013E154 /* Scale */ = {
+			isa = PBXGroup;
+			children = (
+				E16F558E1D2A5E1F0013E154 /* ScaleController.h */,
+				E16F558F1D2A5E1F0013E154 /* ScaleController.m */,
+				E16F55901D2A5E1F0013E154 /* TransitionAnimator.h */,
+				E16F55911D2A5E1F0013E154 /* TransitionAnimator.m */,
+			);
+			name = Scale;
 			sourceTree = "<group>";
 		};
 		E18752B71D1276670017D8C5 /* QQMusic */ = {
@@ -329,10 +347,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E135A6FE1D06A98F00BED22F /* dog.png in Resources */,
+				E16F55951D2A5E4A0013E154 /* Main.storyboard in Resources */,
 				E135A7151D07D12C00BED22F /* girl.png in Resources */,
 				E135A6951D06A59A00BED22F /* LaunchScreen.storyboard in Resources */,
 				E135A6921D06A59A00BED22F /* Assets.xcassets in Resources */,
-				E135A6901D06A59A00BED22F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +380,7 @@
 				E135A7041D06B91900BED22F /* FirstController.m in Sources */,
 				E18752BA1D1276D10017D8C5 /* QQController.m in Sources */,
 				E135A70C1D06C8E600BED22F /* PopTransition.m in Sources */,
+				E16F55931D2A5E1F0013E154 /* TransitionAnimator.m in Sources */,
 				E135A6FC1D06A8CC00BED22F /* ListTableController.m in Sources */,
 				E18752C01D1276F70017D8C5 /* QQTransition.m in Sources */,
 				E135A7011D06B71100BED22F /* SecondController.m in Sources */,
@@ -370,6 +389,7 @@
 				E135A68A1D06A59A00BED22F /* AppDelegate.m in Sources */,
 				E135A7091D06C17700BED22F /* PushTransition.m in Sources */,
 				E18752BD1D1276E30017D8C5 /* QQSecondController.m in Sources */,
+				E16F55921D2A5E1F0013E154 /* ScaleController.m in Sources */,
 				E135A6871D06A59A00BED22F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,14 +426,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E135A68E1D06A59A00BED22F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E135A68F1D06A59A00BED22F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E135A6931D06A59A00BED22F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
